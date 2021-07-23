@@ -1,0 +1,188 @@
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0;
+
+    }
+    .container{
+      width: 60%;
+      margin: auto;
+    }
+    nav{
+      padding-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    /* common style */
+    h1{
+      font-size: 60px;
+    }
+    .btn{
+      padding: 12px 30px;
+      border: none;
+      border-radius: 25px;
+      font-size: 20px;
+      font-weight: 900;
+      color: aliceblue;
+      background-color: #2acfcf; 
+      cursor: pointer;
+    }
+    .left-side-nav-link{
+      display: flex;
+      align-items: center;
+    }
+    nav a{
+      margin-left: 20px;
+      margin-right: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: rgb(158, 157, 157);
+    }
+    p{
+      font-weight: 600;
+      color: rgb(158, 157, 157);
+    }
+ .row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+     form{
+      background-image: url(images/bg-shorten-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 50px;
+      background-color: #3b3054;
+      border-radius: 10px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .input-email{
+      width: 80%;
+      font-size: 20px;
+      height: 50px;
+      border: 2px solid orangered;
+      border-radius: 5px;
+    }
+    .address{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px 30px;
+     margin: 20px;
+     box-shadow: 5px 5px 20px gray;
+     border-radius: 5px;
+    }
+    .address span{
+      color: #2acfcf;
+      padding-right: 20px;
+    }
+    .address .small-btn{
+      background-color: #2acfcf;
+      padding: 7px 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn-3{
+       padding: 12px 30px;
+      border: none;
+      border-radius: 15px;
+      font-size: 20px;
+      color: aliceblue;
+      background-color: #2acfcf; 
+      margin-left: 20px;
+      cursor: pointer;
+    }
+    /* advanced statistics */
+    .advanced-statistics{
+      text-align: center;
+    }
+   
+    .cards{
+      background-image: url('images/hrline-removebg-preview.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      margin-bottom: 100px;
+      margin-top: 100px;
+      position: relative;
+      padding-bottom: 100PX;
+    }
+    .card{
+      height: auto;
+      width: 300px;
+      text-align: center;
+      background-color: white;
+      margin-right: 30px;
+      box-shadow: 5px 5px 20px gray;
+      border-radius: 10px;
+      padding: 30px;
+      position: relative;
+    }
+    .card:nth-child(3)
+    {
+      margin:0;
+      top: 80px;
+    }
+    .card:nth-child(2)
+    {
+     top: 40px;
+    }
+  .card-logo{
+   background-color: #3b3054;
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: -40px;
+   left: 30px;
+  }
+ 
+
+/* footer */
+.footer-top{
+  color: aliceblue;
+ text-align: center;
+ padding: 30px;
+ background-image: url(images/bg-boost-desktop.svg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-color: #3b3054;
+}
+.footer-bottom{
+  background-color: #29282cf8;
+  color: aliceblue;
+  height: 250px;
+}
+.footer-flex{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+ul li{
+  list-style: none;
+  margin-top: 20px;
+}
+ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: rgb(124, 124, 219);
+}
+.fab{
+   margin: 10px;
+   font-size: 30px;
+   cursor: pointer;
+}
+.fab:hover{
+  color: rgb(124, 124, 219);
+}
